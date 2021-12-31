@@ -8,6 +8,7 @@
     height: 5vh;
 }
 .githubtext{
+    
     margin-top: 20vh;
     text-align: center;
     text-decoration: underline;
@@ -18,4 +19,11 @@ font-size: 2vw;
 .border2 {
     text-align: end;
     font-size: 2vw;
+}
+.progressBars{
+    margin-top: 3vh;
+}
+.textUnderBars{
+    margin-top: 3vh;
+    text-align: center;
 }
