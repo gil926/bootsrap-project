@@ -1,5 +1,5 @@
 #body{
-    background-image: url("https://cdn.vox-cdn.com/thumbor/-3qlksttg-refzeNiGEk0pK7-Vg=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69307825/acastro_210121_1777_google_0001.0.jpg"); /* The image used */
+    background-image: url("https://media.istockphoto.com/photos/colorful-background-picture-id1280385511?b=1&k=20&m=1280385511&s=170667a&w=0&h=4-KMkIqgyw2gTBMTBbYZVZoidwRsWZzr3q0xyUDYhas="); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -14,16 +14,30 @@
     width: 30vw;
     color: antiquewhite;
 }
+.pictures{
+    width: 50vw;
+    height: 50vh;
+}
 .githubandimg{
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
 }
 .githublogo{
     width: 5vw;
     height: 5vh;
+    background-color: #cccccc;
+    border: 2px solid orange;
+}
+.githublogo:hover{
+    border: 2px solid lightskyblue;
+}
+.aboutme{
+width: 30vw;
+margin-left: 10vw;
 }
 .githubtext{
-    
-    margin-top: 20vh;
+    color: antiquewhite;
+
+    margin-top: 10vh;
     text-align: center;
     text-decoration: underline;
 }
@@ -43,7 +57,7 @@ font-size: 2vw;
     font-size: 2vw;
 }
 .progressBars{
-    margin-top: 3vh;
+    margin-top: 8vh;
 }
 .textUnderBars{
     color: antiquewhite;
