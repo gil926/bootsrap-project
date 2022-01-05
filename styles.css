@@ -1,75 +1,99 @@
+#navbar{
+    position: fixed;
+    top: 0px;
+}
 #body{
-    
-    
-    background-position: center; /* Center the image */
+    background-color: black;
+    color: white;
 }
-.programinglangs{
- text-align: center;
- margin-top: 5vh;   
-}
-.headline{
-
- 
-}
-.pictures{
-    width: 50vw;
-    height: 50vh;
-}
-.githubandimg{
-    margin-top: 3vh;
-    /* background-color: #cccccc; */
-}
-.githublogo{
-    width: 5vw;
-    height: 5vh;
-    background-color: #cccccc;
-    border: 2px solid orange;
-}
-.githublogo:hover{
-    border: 2px solid lightskyblue;
-}
-.aboutme{
-width: 30vw;
-margin-left: 10vw;
-}
-.githubtext{
-    
-
-    margin-top: 10vh;
+#githubtext{
+   border-right: 3px solid grey;
+    width: 10vw;
+    font-size: vw;
     text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
     text-decoration: underline;
 }
-.border1{
-font-size: 2vw;
 
-} 
-.mailogo{
- 
-}
-.phonelogo{
-
-}
-.border2 {
-    text-align: end;
-    font-size: 2vw;
-}
-.progressBars{
-    
-}
-.textUnderBars{
-    
-
+#ProgrammingLangs{
+    margin-top: 20vh ;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#ProgressBars{
+    
+}
+#ProggressPerntage{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.navbar{
-    position: fixed;
-    z-index: 1;
-    height: 3vh;
-    top: 0px;
-    
-    /* margin-top: 8vh; */
+#TextAndImg{
+    margin-top: 2vw;
 }
-.carousele{
-    width: 2vw;
+
+#PhoneLogo{
+fill: aliceblue;
+}
+#PhoneLogo:hover{
+    fill: yellow;
+}
+#MaiLogo{
+fill: aliceblue;
+}
+#MaiLogo:hover{
+    fill: yellow;
+}
+#iframes{
+    margin-top: 30vh;
+    text-align: center;
+    
+}
+#line{
+    margin-top: 10vh;
+    margin-left: 18vw;
+    width: 60vw;
+    background-color: gray;
+}
+#line2{
+    
+    margin-top: 25vh;
+    margin-left: 18vw;
+    width: 60vw;
+    background-color: gray;
+}
+
+/*images*/
+#img1{
+height: 40vh;
+}
+#img2{
+    height: 40vh;
+}
+#img3{
+    height: 40vh;
+}
+
+#img1:hover{
+    animation-name: imganimate;
+    animation-duration: 3s;
+}
+#img2:hover{
+    animation-name: imganimate;
+    animation-duration: 3s;
+}
+#img3:hover{
+    animation-name: imganimate;
+    animation-duration: 3s;
+}
+
+@keyframes imganimate{
+    from{background-color: black;
+        border-radius: 20%;
+    }
+    to{background-color: grey;
+    border-radius: 20%;}
 }
