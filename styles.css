@@ -1,24 +1,22 @@
 #body{
-    background-image: url("https://media.istockphoto.com/photos/colorful-background-picture-id1280385511?b=1&k=20&m=1280385511&s=170667a&w=0&h=4-KMkIqgyw2gTBMTBbYZVZoidwRsWZzr3q0xyUDYhas="); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
+    
+    
     background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.programinglangs{
+ text-align: center;
+ margin-top: 5vh;   
 }
 .headline{
-    
-    text-decoration: underline;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 35vw;
-    width: 30vw;
-    color: antiquewhite;
+
+ 
 }
 .pictures{
     width: 50vw;
     height: 50vh;
 }
 .githubandimg{
+    margin-top: 3vh;
     /* background-color: #cccccc; */
 }
 .githublogo{
@@ -35,7 +33,7 @@ width: 30vw;
 margin-left: 10vw;
 }
 .githubtext{
-    color: antiquewhite;
+    
 
     margin-top: 10vh;
     text-align: center;
@@ -52,21 +50,24 @@ font-size: 2vw;
 
 }
 .border2 {
-    
     text-align: end;
     font-size: 2vw;
 }
 .progressBars{
-    margin-top: 8vh;
+    
 }
 .textUnderBars{
-    color: antiquewhite;
-    margin-top: 3vh;
+    
+
     text-align: center;
 }
 
 .navbar{
+    position: fixed;
     z-index: 1;
+    height: 3vh;
+    top: 0px;
+    
     /* margin-top: 8vh; */
 }
 .carousele{
