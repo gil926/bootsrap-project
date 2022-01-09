@@ -3,7 +3,7 @@
     top: 0px;
 }
 #body{
-    background-color: black;
+    background-image: linear-gradient(black , lightskyblue);;
     color: white;
 }
 #githubtext{
