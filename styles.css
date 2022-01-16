@@ -3,8 +3,8 @@
     top: 0px;
 }
 #body{
-    background-image: linear-gradient(black , lightskyblue);;
-    color: white;
+    background-color: lightcyan;
+    color: blue;
 }
 #githublogo{
     margin-left: 15vw;
