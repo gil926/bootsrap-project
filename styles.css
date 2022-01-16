@@ -3,8 +3,7 @@
     top: 0px;
 }
 #body{
-    background-color: black;
-    color: white;
+  color: white;
 }
 #githublogo{
     margin-left: 15vw;
@@ -53,7 +52,7 @@ fill: aliceblue;
     fill: yellow;
 }
 #iframes{
-    margin-top: 30vh;
+    margin-top: 20vh;
     text-align: center;
     
 }
@@ -64,11 +63,11 @@ fill: aliceblue;
     background-color: gray;
 }
 #line2{
-    
+    background-color: antiquewhite;
     margin-top: 25vh;
     margin-left: 18vw;
     width: 60vw;
-    background-color: gray;
+    background-color: whitesmoke;
 }
 
 /*images*/
@@ -99,6 +98,18 @@ border-radius:20% ;
 #img3:hover{
     animation-name: imganimate;
     animation-duration: 3s;
+}
+
+.iframe1{
+
+}
+
+.iframe2{
+
+}
+.iframe3{
+
+
 }
 
 @keyframes imganimate{
