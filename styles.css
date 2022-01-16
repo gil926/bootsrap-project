@@ -3,6 +3,7 @@
     top: 0px;
 }
 #body{
+    filter: contrast(a);
     background-image: linear-gradient(black , lightskyblue);;
     color: white;
 }
@@ -53,7 +54,7 @@ fill: aliceblue;
     fill: yellow;
 }
 #iframes{
-    margin-top: 30vh;
+    margin-top: 20vh;
     text-align: center;
     
 }
@@ -64,11 +65,11 @@ fill: aliceblue;
     background-color: gray;
 }
 #line2{
-    
+    background-color: antiquewhite;
     margin-top: 25vh;
     margin-left: 18vw;
     width: 60vw;
-    background-color: gray;
+    background-color: whitesmoke;
 }
 
 /*images*/
@@ -93,6 +94,18 @@ height: 40vh;
 #img3:hover{
     animation-name: imganimate;
     animation-duration: 3s;
+}
+
+.iframe1{
+
+}
+
+.iframe2{
+
+}
+.iframe3{
+
+
 }
 
 @keyframes imganimate{
