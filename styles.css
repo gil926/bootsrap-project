@@ -3,8 +3,8 @@
     top: 0px;
 }
 #body{
-    background-color: lightcyan;
-    color: blue;
+    background-color: black;
+    color: white;
 }
 #githublogo{
     margin-left: 15vw;
@@ -74,12 +74,18 @@ fill: aliceblue;
 /*images*/
 #img1{
 height: 40vh;
+border-radius:20% ;    
+
 }
 #img2{
+    
+    background-color: red;
     height: 40vh;
+    border-radius:20% ;
 }
 #img3{
     height: 40vh;
+    border-radius:20% ;
 }
 
 #img1:hover{
@@ -87,7 +93,7 @@ height: 40vh;
     animation-duration: 3s;
 }
 #img2:hover{
-    animation-name: imganimate;
+    animation-name: i;
     animation-duration: 3s;
 }
 #img3:hover{
