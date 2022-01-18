@@ -7,6 +7,11 @@
     
     
 }
+#logo{
+    width: 15vw;
+    height: 25vh;
+    z-index: 0;
+}
 #githublogo{
     margin-left: 15vw;
 }
@@ -41,13 +46,13 @@ h2{
 }
 
 #PhoneLogo{
-
+z-index: 10;
 }
 #PhoneLogo:hover{
 
 }
 #MaiLogo{
-
+z-index: 10;
 }
 #MaiLogo:hover{
 
