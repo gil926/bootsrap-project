@@ -1,12 +1,18 @@
-#navbar{
-    position: fixed;
-    top: 0px;
-}
+
 #body{
     
     background-color: #697E9A;
     color: #DAF4F0;
 }
+#navbar{
+    position: fixed;
+    top: 0px;
+}
+#navlist{
+    font-size: 2.7vh;
+    list-style: none;
+}
+
 #logo{
     width: 15vw;
     height: 28vh;
@@ -37,10 +43,12 @@ padding-bottom: 10vh;
 }
 
 h2{
-    text-decoration: underline;
+    
 }
 
 #ProgrammingLangs{
+    font-size: 5vh;
+    
     margin-top: 20vh ;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -64,6 +72,7 @@ z-index: 10;
 
 }
 #MaiLogo{
+    margin: left 2vw;;
 z-index: 10;
 }
 #MaiLogo:hover{
@@ -72,20 +81,6 @@ z-index: 10;
 #iframes{
     margin-top: 20vh;
     text-align: center;
-    
-}
-#line{
-    margin-top: 10vh;
-    margin-left: 18vw;
-    width: 60vw;
-    background-color: gray;
-}
-#line2{
-    background-color: antiquewhite;
-    margin-top: 25vh;
-    margin-left: 18vw;
-    width: 60vw;
-    background-color: whitesmoke;
 }
 
 /*images*/
