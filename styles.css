@@ -9,10 +9,19 @@
     top: 0px;
 }
 #navlist{
-    font-size: 2.7vh;
+     padding: 0%;
     list-style: none;
+    font-size: 2.7vh;
 }
-
+li{
+    color: #DAF4F0;
+    text-decoration: none;
+}
+li:hover{
+    color:#354d62;
+    text-decoration:underline;
+    text-decoration-color:#697E9A ;
+}
 #logo{
     width: 15vw;
     height: 28vh;
@@ -66,17 +75,17 @@ h2{
 }
 
 #PhoneLogo{
+    fill:#DAF4F0 ;
 z-index: 10;
 }
 #PhoneLogo:hover{
-
+fill: #354d62;
 }
 #MaiLogo{
-    margin: left 2vw;;
 z-index: 10;
 }
 #MaiLogo:hover{
-
+fill: #354d62;
 }
 #iframes{
     margin-top: 20vh;
